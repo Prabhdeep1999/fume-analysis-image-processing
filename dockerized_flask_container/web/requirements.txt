@@ -1,5 +1,5 @@
 flask
-flask_restful
+flask-restful
 bcrypt
 numpy
 requests
@@ -7,4 +7,10 @@ Werkzeug
 flask-cors
 boto3
 psycopg2
-opencv-python
+matplotlib
+Pillow
+scipy
+scikit-image
+seaborn
+pandas
+MoviePy
