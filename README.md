@@ -43,10 +43,10 @@ The program can run in either of the two following ways:
 
 *Resource Chart for Rest API:*
 
-| Resources | URL       | Method | Param | Status                                                                     |
-| --------- | --------- | ------ | ----- | -------------------------------------------------------------------------- |
-| Register  | /register | post   | uname | 200 OK, 301 username already exist                                         |
-| Classify  | /classify | post   | uname | 200 OK, 301, 302 Incorrect id or pass, 303 Out of token, 304 Invalid input |
+| Resources | URL       | Method | Param | Status                                                                     | Param Body type |
+| --------- | --------- | ------ | ----- | -------------------------------------------------------------------------- | --------------- |
+| Register  | /register | post   | uname, pass | 200 OK, 301 username already exist                                         | JSON |
+| Classify  | /classify | post   | uname, pass, video_file | 200 OK, 301, 302 Incorrect id or pass, 303 Out of token, 304 Invalid input | Form |
 
 *Database.ini:*
 
