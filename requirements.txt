@@ -1,2 +1,16 @@
-opencv-python
+flask
+flask-restful
+bcrypt
 numpy
+requests
+Werkzeug
+flask-cors
+boto3
+psycopg2
+matplotlib
+Pillow
+scipy
+scikit-image
+seaborn
+pandas
+MoviePy
