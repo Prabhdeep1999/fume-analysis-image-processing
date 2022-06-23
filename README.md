@@ -5,10 +5,7 @@ Fume Analysis is a key check used by mining engineers while blasting. It focuses
 This is a standard usecase and can be used to filter any moving object in a stabilised camera with consistent camera position.
 
 Following is a series of snap showing the three phases (Raw | Background Subtraction | Harmful Fume Subtraction)
-
-![1656002308520](image/README/1656002308520.png)
-
-![1656001881048](image/README/1656001881048.png)![1656001907037](image/README/1656001907037.png)**Prequisites:**
+<img src="image/README/1656002308520.png" alt="drawing" width="240" height="135"/><img src="image/README/1656001881048.png" alt="drawing" width="240" height="135"/><img src="image/README/1656001907037.png" alt="drawing" width="240" height="135"/>
 
 1. Python3.7
 2. If Docker Approach is selcted:
